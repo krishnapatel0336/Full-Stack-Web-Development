@@ -1,0 +1,21 @@
+*{
+    font-family: 'Courier New', Courier, monospace;
+}
+h1{
+    color: #1b74e4;
+}
+.userbtn{
+    background-color: aqua;
+}
+#searchbtn{
+    background-color: black;
+    color: white;
+}
+/* selector */
+div[id="myID"] p {
+    color:#000000
+}
+
+#myID p {
+    background-color: chartreuse;
+}
