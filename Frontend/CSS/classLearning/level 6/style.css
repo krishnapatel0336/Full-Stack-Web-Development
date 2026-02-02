@@ -1,0 +1,85 @@
+.container{
+    width: 600px;
+    height: 300px;
+    background-color: rgb(182, 129, 60);
+    display: grid;  
+     /*grid tells BLOCK Iteams----> 
+    to show inline We can useINLINE-GRID*/
+
+    /* justify-items: center;
+    align-items: center; */
+    place-items: center;
+
+    /* grid-template-rows: 50px 50px 50px 50px 50px; 
+    grid-template-columns: 200px 200px 200px;
+  grid-template-rows: repeat(3, 1fr); */
+
+ grid-template-rows: 1fr 1fr 1fr;
+ grid-template-columns: repeat(3, 1fr);
+
+ /* row-gap: 10px;
+ column-gap: 2px; */
+grid-gap: 5px 5px;
+}
+
+.item{
+    width: 100px;
+    height: 50px;
+    background-color: greenyellow;
+    border: 2px solid black;
+    text-align: center;
+}
+
+#id1{
+    /* grid-column-start: 1;
+    grid-column-end: 4 ; */
+    grid-column:1/4; 
+}
+
+#id2{
+    grid-row: 1/3;/*LINE NO.*/
+    /*spaN-AREA*/
+    justify-self: end;
+}
+/* justify-->horizontal
+    align-->Vertrical 
+    Place--> use as COMBINED of justify and align when both are same*/
+.box{
+    height: 100px;
+    width: 300px;
+    background-color: pink;
+    border: 2px solid black;
+    animation: Animation 6s  ease-in 0s infinite alternate ;
+}
+
+@keyframes Animation {
+    0% {
+        font-size: 20px;
+        background-color: pink;
+        border-radius: 0%;
+    }
+    50% {
+        font-size: 50px;
+         background-color: blue;
+         border-radius: 20%;
+    }
+100% {
+        font-size: 80px;
+         background-color: orangered;
+         border-radius: 50%;
+    }
+}
+
+h2 {
+    background-color: yellow;
+    border: 2px solid black;
+}
+@media (width: 400px) {
+    h2{
+        background-color: red;
+    }
+    
+}
+/* min and max also possible 
+USE AND for combide min and max */
+/* Orientation- land scape and potrait */
