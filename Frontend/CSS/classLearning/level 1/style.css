@@ -1,0 +1,47 @@
+ h1{
+    color : blue;
+}
+button{
+    color:rgb(236, 236, 236);
+    background-color: blue;    
+    text-decoration: underline;
+}
+body{
+    background-color: #f60099;
+} 
+/* color systems
+1=RGB (primary colors=red green blue [0,255])
+2=hex (0-15 #[00,ff](0000ff))
+color plete "coolers" to generate color plate
+*/
+/* selectors 1. *universal selectors(esteric)
+             2. h1elemennt selector
+             3. #myid-id selector
+             4. .myclass-class selector
+[&-empersand] */
+*{
+    font-style : italic;/*bad vala high priority*/
+}
+#a {
+    color : rgb(0, 255, 72);
+    font-family: fantasy;
+}
+.b {
+    color : rgb(255, 255, 255);
+}
+p{
+    text-align: center;
+    line-height: 50px;
+}
+a{
+    text-decoration: double underline;
+    font-size: 40px;
+    font-style:normal;
+    font-weight: bolder;      /*weight 100-900 */
+    text-transform: uppercase;
+}      
+/*units in css(px)
+absolute
+96px=1inch*/
+
+/* mdn website for learn css */
