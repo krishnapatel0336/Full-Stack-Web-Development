@@ -1,0 +1,69 @@
+div{
+    height: 100px;
+    width: 100px;
+    border: 2px,solid,black;
+    position: absolute;
+    top: 150px;
+    left: 0px;
+    background-color: aqua;
+    border-radius: 50%;
+    transition: all;
+    /* transition-duration: 2s;
+    transition-timing-function: ease-in;
+    transition-delay: 1ms; */
+    transition: all 2s ease-in 1ms ;
+     transform: scalex(2,2);
+     transform: translate(-70px,-70px);
+    transform: rotate(360deg);
+    transform: skew(360deg);
+    /* animation-name: color;
+    animation-duration: 0.5s;
+    /* animation-timing-function: ease-in; */
+    /* animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate-reverse; */ 
+    animation: color 0.5s 0s infinite alternate-reverse
+
+
+
+    /* transition:property name|duration|timingfunc|delay */
+    /* animation:name of key frame|duration|timing func|dely|iterationcount|direction */
+   
+    
+    /* clockwise */
+    /* for 3d use seperate xyz rotation */
+    /* for 1d object it is rule of CROSS VECTOR PRODUCT */
+    /* SCALE MEANS (n)times in x and y axis=(x,y) */
+
+    
+}
+div:hover{
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    
+ 
+   
+}
+div:active{
+    background-color: pink;
+    color: darkgreen;
+}
+@keyframes color{
+    0%{
+        background-color: aqua;
+    }
+    50%{
+        background-color: red;
+    }
+    100%{
+        background-color: pink;
+    }
+    from{
+        left:0px
+    }
+    to{
+        left:200px
+    }
+}
+
