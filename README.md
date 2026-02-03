@@ -4,7 +4,7 @@ Technical documentation of my web development journey. Completed frontend specia
 ## Technical Stack and Progress
 
 ### Languages and Frameworks
-- Frontend: HTML5, CSS3, JavaScript (ES6+), Bootstrap 5
+- Frontend: HTML, CSS, JavaScript, Bootstrap 
 - Backend: Node.js, Express.js (Current Focus)
 - Database: SQL, MongoDB (Upcoming)
 
